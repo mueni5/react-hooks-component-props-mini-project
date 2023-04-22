@@ -1,12 +1,8 @@
-import React from "react";
 import blogData from "../data/blog";
+const {name} = blogData;
+function Header () {
 
-const Header = ({ name }) => {
-  return (
-    <header>
-      <h1>{name}</h1>
-    </header>
-  );
-};
+    return <h1>{name}</h1>
+}
 
 export default Header;
